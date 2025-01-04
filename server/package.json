@@ -1,0 +1,17 @@
+{
+  "name": "arduinoserver",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Hager",
+  "license": "ISC",
+  "description": "A simple server to take data from arduino and make it accessible to a local port.",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "serialport": "^13.0.0"
+  }
+}
