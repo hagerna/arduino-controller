@@ -1,0 +1,13 @@
+Using Arduino with Unity:
+1. Add websocket-sharp.dll to an Assets/Plugins folder
+2. Add the other files to your project (ArduinoData, ArduinoObject, and ArduinoReceiver)
+3. Add the scripts to a GameObject in the scene
+4. Play the Scene in Unity
+
+Documentation:
+
+ArduinoData --> The object representation for the JSON received from the server
+
+ArduinoReceiver --> The WebSocket Client that connects to the server and handles the data
+
+ArduinoObject --> An example script that observes the inputs from the Arduino to move an object
